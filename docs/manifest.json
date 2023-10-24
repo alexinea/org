@@ -1,29 +1,29 @@
 {
-  "_vendor-0faba382.js": {
-    "file": "assets/vendor-0faba382.js"
+  "_vendor.js": {
+    "file": "assets/vendor.js"
   },
   "index.css": {
-    "file": "assets/index-f4c8b4f1.css",
+    "file": "assets/index.css",
     "src": "index.css"
   },
   "index.html": {
     "css": [
-      "assets/index-f4c8b4f1.css"
+      "assets/index.css"
     ],
     "dynamicImports": [
       "src/views/Home.vue"
     ],
-    "file": "assets/index-b47feb0b.js",
+    "file": "assets/index.js",
     "imports": [
-      "_vendor-0faba382.js"
+      "_vendor.js"
     ],
     "isEntry": true,
     "src": "index.html"
   },
   "src/views/Home.vue": {
-    "file": "assets/Home-b2f00930.js",
+    "file": "assets/Home.js",
     "imports": [
-      "_vendor-0faba382.js"
+      "_vendor.js"
     ],
     "isDynamicEntry": true,
     "src": "src/views/Home.vue"

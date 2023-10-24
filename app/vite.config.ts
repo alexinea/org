@@ -15,15 +15,15 @@ export default defineConfig({
   build:{
     target: 'es2018',
     outDir: '../docs',
-    emptyOutDir: true,
+    emptyOutDir: false,
     manifest: true,
-    // rollupOptions: {
-    //   output: {
-    //     entryFileNames: `assets/[name].js`,
-    //     chunkFileNames: `assets/[name].js`,
-    //     assetFileNames: `assets/[name].[ext]`,
-    //   }
-    // }
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name].js`,
+        chunkFileNames: `assets/[name].js`,
+        assetFileNames: `assets/[name].[ext]`,
+      }
+    }
   },
   resolve: {
     alias: {
